@@ -42,7 +42,9 @@ Make sure you have Python and pip installed. You can download Python from [pytho
 ```bash
 docker compose up
 ```
+## Usage
 
+    Open your browser and go to http://localhost:5000.
 ### Project Structure
 ```bash 
 ├── app.py
