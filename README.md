@@ -1,6 +1,9 @@
 # ML_LinearRegression Project
 
 Welcome to the ML_LinearRegression repository! This project demonstrates the use of a linear regression model to predict car prices based on mileage and age. You'll find Jupyter notebooks, datasets, and scripts showcasing various techniques used in machine learning.
+## Screenshot of the Application
+
+![Aperçu de l'application](image.png)
 ## Contents
 
 - Machine Learning algorithms implementations
@@ -35,16 +38,29 @@ Make sure you have Python and pip installed. You can download Python from [pytho
 ```
 
 
-4. **Activate the virtual environment:**
-
-  
+### Build and Run the Application with Docker Compose
 ```bash
-          python -m venv myenv
+docker compose up
 ```
 
-
-5. **Install the required dependencies:**
-   
-```bash
-    pip install -r requirements.txt
-   ```
+### Project Structure
+```bash 
+├── app.py
+├── data
+│   ├── carprices.csv
+│   └── image.png
+├── docker-compose.yaml
+├── Dockerfile
+├── image.png
+├── model.joblib
+├── model.pkl
+├── model.py
+├── README.md
+├── requirements.txt
+├── static
+│   └── css
+│       └── styles.css
+├── templates
+│   └── index.html
+└── train_test_split.ipynb
+```
